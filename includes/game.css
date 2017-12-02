@@ -1,0 +1,40 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.navbar{padding: 0rem 1rem;}
+
+.dropdown-menu a{color: #fff;}
+.dropdown-menu{background-color: #37BC9B;}
+
+.panel-heading {
+    padding: 15px 0px 10px 0px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.btn-refresh{margin-right: 15px;}
+.btn-soundsettings{    
+	position: fixed;
+    right: 0px;
+    top: 1px;
+    }
+    
+.list-group-item-info{color: #fff;}
+    
+.game{min-height: 300px; margin-bottom: 20px;}
+.loader{
+	background-image: url('../images/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.table{text-align: center; table-layout: fixed;}    
+.table thead th, .table td, .table th{border: 0;}    
+.table th.question {font-size: 25px;}
+.table td.symbols {font-size: 20px; font-weight: bold;}
