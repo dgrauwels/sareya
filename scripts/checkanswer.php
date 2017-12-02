@@ -2,7 +2,7 @@
 $game = $_POST["game"];
 
 $writeanswer = "WAITING";
-if(!empty($_POST["answer"]) && $_POST["answer"] == $_POST["checkvalue"])
+if(!empty($_POST["answer"]) && strtolower($_POST["answer"]) == strtolower($_POST["checkvalue"]))
 {
 	$writeanswer = "YES";
 	echo "YES";
